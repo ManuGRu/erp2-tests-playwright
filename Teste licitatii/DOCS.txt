@@ -1,0 +1,7 @@
+npm install playwright
+npm install playwright @playwright/test
+npx playwright install
+npx playwright codegen http://localhost:7001
+
+
+npm run codegen

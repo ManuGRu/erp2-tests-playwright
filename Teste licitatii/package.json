@@ -1,0 +1,22 @@
+{
+  "name": "teste-licitatii",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "codegen": "npx playwright codegen https://test2.erp-levtech.ro/ --viewport-size=1920,1080"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.48.2",
+    "@types/node": "^22.8.6",
+    "why-is-node-running": "^3.2.1"
+  },
+  "dependencies": {
+    "pg": "^8.13.1",
+    "ssh2": "^1.16.0",
+    "tunnel-ssh": "^5.1.2"
+  }
+}
